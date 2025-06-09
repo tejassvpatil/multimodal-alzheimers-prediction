@@ -10,7 +10,7 @@ This project develops a multimodal deep learning framework for predicting the pr
 ## Data
 
 - **Source:** Alzheimer’s Disease Neuroimaging Initiative* (ADNI)
-- **Cohort:** Only subjects with baseline (VISCODE=bl) data for all three modalities
+- **Cohort:** Only subjects with MCI diagnosis and data for all three modalities
 
 ## Citation
 
