@@ -1,0 +1,18 @@
+modalities:
+  cognition:
+    csv: /content/drive/Shareddrives/ECS289L/embeddings/cog/embeddings.csv
+    dim: 32
+  genetics:
+    csv: /content/drive/Shareddrives/ECS289L/embeddings/genetics_mlp/embeddings.csv
+    dim: 128
+
+fusion:
+  hidden: 256
+  heads: 4
+
+train:
+  batch: 32
+  epochs: 30
+  lr: 1e-4
+  device: cuda
+  output: /content/drive/Shareddrives/ECS289L/weights/fusion_2mod_best.pt

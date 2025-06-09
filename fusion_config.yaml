@@ -1,0 +1,21 @@
+modalities:
+  cog:
+    csv: /content/drive/Shareddrives/ECS289L/embeddings/cog/embeddings.csv
+    dim: 32
+  genetics:
+    csv: /content/drive/Shareddrives/ECS289L/embeddings/genetics_mlp/embeddings_imputed.csv
+    dim: 128
+  mri:
+    csv: /content/drive/Shareddrives/ECS289L/embeddings/mri/embeddings.csv
+    dim: 128
+
+fusion:
+  hidden: 256
+  heads: 4
+
+train:
+  batch: 32
+  epochs: 30
+  lr: 3e-4
+  device: cuda
+  output: /content/drive/Shareddrives/ECS289L/results/triple_modal/fusion_all.pt
